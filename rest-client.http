@@ -1,0 +1,3 @@
+@baseurl = http://localhost:3000
+### List Post
+GET {{baseurl}}/posts

@@ -1,0 +1,24 @@
+{
+  "login": {
+    "status": true,
+    "message": "Success Login",
+    "data": {
+      "token": "123qweasdzxcasdqwe123",
+      "expires_in": 3600,
+      "user": {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com"
+      }
+    }
+  },
+
+  "posts": {
+    "status": true,
+    "nessage": "Success get data posts",
+    "data": [
+      {"id": "1", "title": "a title", "views": 100},
+      {"id": "2", "title": "another title", "views": 200}
+    ]
+  }
+}
